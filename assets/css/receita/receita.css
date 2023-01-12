@@ -3,7 +3,7 @@
     margin: 2rem 4rem;
     border: 1px solid #C4C4C4;
     border-radius: 15px;
-    transition: 1s;
+    transition: width 1s ease;
     background-color: #FFF;
 }
 .receita:hover{

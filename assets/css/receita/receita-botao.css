@@ -7,11 +7,14 @@
     color: #FFF;
     font-size: 1.125rem;
     font-weight: 400;
-    transition: 0.5s;
 }
+
 .receita__botao:hover{
+    transition: background-color 0.5s ease;
     background-color: #c40d0d;
 }
+
 .receita__botao:active{
+    transition: background-color 0.5s ease;
     background-color: #ff0000;
 }
