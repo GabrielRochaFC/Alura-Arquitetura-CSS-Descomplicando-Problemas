@@ -17,6 +17,14 @@
 @import url(receita/receita-titulo.css);
 @import url(receita/receita-descricao.css);
 @import url(receita/receita-botao.css);
+@import url(comunidade/comunidade.css);
+@import url(comunidade/comunidade-titulo.css);
+@import url(comunidade/comunidade-paragrafo.css);
+@import url(comunidade/pessoa/pessoas.css);
+@import url(comunidade/pessoa/pessoa.css);
+@import url(comunidade/pessoa/pessoa-imagem.css);
+@import url(comunidade/pessoa/pessoa-titulo.css);
+@import url(comunidade/pessoa/pessoa-descricao.css);
 /* 
 <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />

@@ -1,0 +1,8 @@
+.pessoa{
+    width: 16.313rem;
+    transition: width 1s ease;
+}
+
+.pessoa:hover{
+    width: 18rem;
+}
