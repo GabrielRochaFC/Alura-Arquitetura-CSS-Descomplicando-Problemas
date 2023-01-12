@@ -2,5 +2,10 @@
     width: 17.875rem;
     margin: 2rem 4rem;
     border: 1px solid #C4C4C4;
-    border-radius: 5px;
+    border-radius: 15px;
+    transition: 1s;
+    background-color: #FFF;
+}
+.receita:hover{
+    width: 20rem;
 }
