@@ -1,0 +1,33 @@
+@import url(normalize.css);
+@import url(reset.css);
+@import url(cabecalho.css);
+@import url(menu/menu-lista.css);
+@import url(menu/menu-item.css);
+@import url(menu/menu-link.css);
+@import url(banner/banner.css);
+@import url(banner/banner-imagem.css);
+@import url(banner/banner-lead.css);
+@import url(sobre/sobre.css);
+@import url(sobre/sobre-titulo.css);
+@import url(sobre/sobre-paragrafo.css);
+@import url(receitas.css);
+@import url(receita/receita.css);
+@import url(receita/receita-conteudo.css);
+@import url(receita/receita-imagem.css);
+@import url(receita/receita-titulo.css);
+@import url(receita/receita-descricao.css);
+@import url(receita/receita-botao.css);
+/* 
+<link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-lead.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-paragrafo.css">
+ */

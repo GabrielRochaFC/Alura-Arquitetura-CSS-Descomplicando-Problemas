@@ -1,0 +1,6 @@
+.menu-item{
+    margin-left: 1.25rem;
+}
+.menu-item:first-child{
+    margin-left: 0rem;
+}

@@ -1,0 +1,10 @@
+.receita__botao{
+    height: 2.313rem;
+    width: 7.188rem;
+    background-color: #8D0606;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
