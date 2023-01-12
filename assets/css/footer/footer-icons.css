@@ -1,0 +1,17 @@
+.footer__icons{
+    width: 3.625rem;
+    height: 3.625rem;
+    background-color: #8D0606;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+.fa-facebook, .fa-twitter{
+    color: #FFF;
+}
+.footer__icons:hover{
+    background-color: #c40d0d;
+}
