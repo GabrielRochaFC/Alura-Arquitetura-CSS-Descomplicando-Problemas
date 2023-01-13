@@ -1,0 +1,25 @@
+.menu__botao{
+    background-color: #8D0606;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.menu__botao .fa-bars{
+    color: #FFF;
+}
+
+/* MEDIA QUERIES */
+
+/* CELULAR */
+@media screen and (min-width: 0px) {
+    .menu__botao{
+        display: block;
+    }
+}
+/* COMPUTADOR */
+@media screen and (min-width: 768px) {
+    .menu__botao{
+        display: none;
+    }
+}

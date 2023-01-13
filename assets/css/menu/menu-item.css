@@ -1,6 +1,19 @@
-.menu-item{
-    margin-left: 1.25rem;
+/* MEDIA QUERIES */
+
+/* CELULAR */
+@media screen and (min-width: 0px) {
+    .menu__item{
+        margin-left: 0rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
-.menu-item:first-child{
-    margin-left: 0rem;
+/* COMPUTADOR */
+@media screen and (min-width: 768px) {
+    .menu__item{
+        margin-left: 1.25rem;
+    }
+    .menu__item:first-child{
+        margin-left: 0rem;
+    }
 }

@@ -2,6 +2,6 @@
     align-items: center;
     background-color: #F8F9FA;
     display: flex;
-    justify-content: space-between;
     padding: 0rem 5rem;
+    justify-content: space-between;
 }

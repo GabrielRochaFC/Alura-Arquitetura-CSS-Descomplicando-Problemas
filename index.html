@@ -15,13 +15,14 @@
 <body>
     <!-- HEADER -->
     <header class="cabecalho">
-        <img src="assets/img/logo.jpg" alt="Logo fruta e fruto">
+        <img src="assets/img/logo.jpg" alt="Logo fruta e fruto" class="cabecalho__logo">
         <nav class="menu">
-            <ul class="menu-lista">
-                <li class="menu-item"><a href="#" class="menu-link ativo">Início</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Receitas</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Quem Somos</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Comunidade</a></li>
+            <button class="menu__botao" onclick="alteraVisibilidadeMenu()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="#" class="menu__link menu__link--ativo">Início</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Receitas</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Quem Somos</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Comunidade</a></li>
             </ul>
         </nav>
     </header>
@@ -120,7 +121,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        <p class="footer__contato">contato</p>
+        <p class="footer__contato">contato: exemplo@email.com</p>
         <div class="footer__icons">
             <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
         </div>
@@ -129,6 +130,7 @@
         </div>
     </footer>
     <!-- END FOOTER -->
+    <script src="assets/js/menu-hamburguer.js"></script>
 </body>
 
 </html>
