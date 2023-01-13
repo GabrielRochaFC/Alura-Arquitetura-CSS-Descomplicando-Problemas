@@ -1,7 +1,7 @@
 .footer{
+    align-items: center;
     background-color: #C4C4C4;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
     padding: 1rem 2.438rem;
 

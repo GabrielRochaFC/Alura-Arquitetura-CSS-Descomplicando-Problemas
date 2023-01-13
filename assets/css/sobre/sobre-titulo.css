@@ -1,7 +1,7 @@
 .sobre__titulo{
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
     color: #8D0606;
+    font-family: 'Pacifico', cursive;
     font-size: 3.188rem;
+    font-weight: 400;
     padding: 1rem;
 }

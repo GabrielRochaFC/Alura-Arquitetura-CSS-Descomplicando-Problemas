@@ -1,20 +1,21 @@
 .receita__botao{
-    height: 2.313rem;
-    width: 7.188rem;
     background-color: #8D0606;
-    border: none;
     border-radius: 5px;
+    border: none;
     color: #FFF;
     font-size: 1.125rem;
     font-weight: 400;
+    height: 2.313rem;
+    width: 7.188rem;
 }
 
 .receita__botao:hover{
-    transition: background-color 0.5s ease;
     background-color: #c40d0d;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 
 .receita__botao:active{
-    transition: background-color 0.5s ease;
     background-color: #ff0000;
+    transition: background-color 0.5s ease;
 }

@@ -1,6 +1,6 @@
 .banner{
-    display: flex;
-    position: relative;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }

@@ -1,10 +1,10 @@
 .receita{
-    width: 17.875rem;
-    margin: 2rem 4rem;
-    border: 1px solid #C4C4C4;
-    border-radius: 15px;
-    transition: width 1s ease;
     background-color: #FFF;
+    border-radius: 15px;
+    border: 1px solid #C4C4C4;
+    margin: 2rem 4rem;
+    transition: width 1s ease;
+    width: 17.875rem;
 }
 .receita:hover{
     width: 20rem;
