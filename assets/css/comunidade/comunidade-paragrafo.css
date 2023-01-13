@@ -1,6 +1,15 @@
 .comunidade__paragrafo{
     color: #8C8888;
-    font-size: 1.75rem;
     font-weight: 300;
     margin-bottom: 2.5rem;
+}
+@media screen and (min-width: 0px) {
+    .comunidade__paragrafo{
+        font-size: 1.10rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .comunidade__paragrafo{
+        font-size: 1.75rem;
+    }
 }

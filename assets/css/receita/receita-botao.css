@@ -3,7 +3,6 @@
     border-radius: 5px;
     border: none;
     color: #FFF;
-    font-size: 1.125rem;
     font-weight: 400;
     height: 2.313rem;
     width: 7.188rem;
@@ -18,4 +17,14 @@
 .receita__botao:active{
     background-color: #ff0000;
     transition: background-color 0.5s ease;
+}
+@media screen and (min-width: 0px) {
+    .receita__botao{
+        font-size: 1.0rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .receita__botao{
+        font-size: 1.125rem;
+    }
 }

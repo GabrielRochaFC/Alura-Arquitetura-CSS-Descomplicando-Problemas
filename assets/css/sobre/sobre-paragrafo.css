@@ -1,5 +1,14 @@
 .sobre__paragrafo{
     color: #8C8888;
-    font-size: 1.75rem;
     font-weight: 300;
+}
+@media screen and (min-width: 0px) {
+    .sobre__paragrafo{
+        font-size: 1.10rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sobre__paragrafo{
+        font-size: 1.75rem;
+    }
 }

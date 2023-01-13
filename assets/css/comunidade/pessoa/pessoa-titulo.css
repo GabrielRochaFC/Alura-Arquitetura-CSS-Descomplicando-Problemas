@@ -1,6 +1,15 @@
 .pessoa__titulo{
     color: #8D0606;
     font-family: 'Pacifico', cursive;
-    font-size: 2rem;
     margin-top: 1rem;
+}
+@media screen and (min-width: 0px) {
+    .pessoa__titulo{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pessoa__titulo{
+        font-size: 2rem;
+    }
 }

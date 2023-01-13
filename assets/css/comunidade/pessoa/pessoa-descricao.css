@@ -1,6 +1,15 @@
 .pessoa__descricao{
     color: #8C8888;
-    font-size: 1.5rem;
     margin-top: 0.5rem;
     text-transform: lowercase;
+}
+@media screen and (min-width: 0px) {
+    .pessoa__descricao{
+        font-size: 1.10rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pessoa__descricao{
+        font-size: 1.5rem;
+    }
 }

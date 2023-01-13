@@ -1,8 +1,15 @@
-.pessoa{
-    transition: width 1s ease;
-    width: 16.313rem;
+@media screen and (min-width: 0px) {
+    .pessoa{
+        width: 13rem;
+    }
 }
-
-.pessoa:hover{
-    width: 18rem;
+@media screen and (min-width: 768px) {
+    .pessoa{
+        transition: width 1s ease;
+        width: 16.313rem;
+    }
+    
+    .pessoa:hover{
+        width: 18rem;
+    }
 }
